@@ -9,7 +9,6 @@ const getJokes = async() =>{
 
     const randomJokes = await response.json()
    document.querySelector('p').innerText = randomJokes.value
-    dogImage.src = data.message
 }
 
 getJokes()
